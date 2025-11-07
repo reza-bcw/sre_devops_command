@@ -158,14 +158,14 @@ sudo zfs set compression=lz4 mypool
 #### Create a dataset:
 
 ```bash
-sudo zfs create mypool/test
+sudo zfs create mypool/data
 ```
 
 #### Create a mount point:
 
 ```bash
-sudo mkdir -p /mnt/test_zfs
-sudo zfs set mountpoint=/mnt/test_zfs mypool/test
+sudo mkdir -p /data
+sudo zfs set mountpoint=/data mypool/data
 ```
 
 #### Copy test data:
