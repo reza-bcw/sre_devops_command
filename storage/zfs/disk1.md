@@ -17,4 +17,5 @@ zpool create -f -o ashift=12 \
 
 # 2. Create the dataset and mount it to /data
 zfs create -o mountpoint=/data mypool/data
+
 '''
